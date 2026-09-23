@@ -1,0 +1,5 @@
+# 运行依赖
+opencc-python-reimplemented>=0.1.7
+pypinyin>=0.49.0
+edge-tts>=6.1.0
+Pillow>=9.0.0

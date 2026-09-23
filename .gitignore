@@ -1,0 +1,41 @@
+# ── 数据目录（1.4GB 源数据 + 267MB 数据库，见 README「数据构建」）──
+data/
+
+# ── 打包产物 ──
+dist/
+build/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ── 运行时生成 ──
+*.log
+.daily_poem.json
+favorites.json
+user_prefs.json
+*.db
+*.db-shm
+*.db-wal
+
+# ── 备份/临时文件 ──
+*.bak
+*.bak_*
+*.backup-*
+*.pre_anthology
+
+# ── 截图 ──
+*.png
+
+# ── 临时/杂项 ──
+nul
+repo_contents.json
+theme_config.json
+*.mp3
+
+# ── IDE ──
+.idea/
+.vscode/
