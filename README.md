@@ -46,7 +46,7 @@
 
 ### 方式一：下载打包版（推荐，免 Python）
 
-1. 从 [Releases](https://github.com/Leon1734/shiyun/releases) 下载最新 `诗韵-v7.0-win64.zip`
+1. 从 [Releases](https://github.com/Leon1734/shiyun/releases) 下载最新 `shiyun-v7.0-win64.zip`
 2. 解压到任意目录（已内置数据库）
 3. 双击 `诗韵.exe` 即可运行
 

@@ -8,7 +8,7 @@ from pathlib import Path
 
 base = Path(__file__).parent
 src = base / 'dist' / '诗韵'
-out = base / 'release' / '诗韵-v7.0-win64.zip'
+out = base / 'release' / 'shiyun-v7.0-win64.zip'
 out.parent.mkdir(exist_ok=True)
 
 if out.exists():

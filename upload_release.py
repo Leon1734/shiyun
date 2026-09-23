@@ -16,7 +16,7 @@ ctx.verify_mode = ssl.CERT_NONE
 release_id = Path(__file__).parent / '.release_id'
 rid = release_id.read_text().strip()
 
-asset = Path(__file__).parent / 'release' / '诗韵-v7.0-win64.zip'
+asset = Path(__file__).parent / 'release' / 'shiyun-v7.0-win64.zip'
 size_mb = asset.stat().st_size / 1024 / 1024
 print(f"准备上传: {asset.name} ({size_mb:.0f}MB)")
 sys.stdout.flush()
@@ -26,7 +26,7 @@ print(f"已读入内存，开始上传...")
 sys.stdout.flush()
 
 t0 = time.time()
-name = quote('诗韵-v7.0-win64.zip')
+name = 'shiyun-v7.0-win64.zip'  # ASCII 文件名（中文经反代会被过滤）
 url = f'https://uploads.github.com/repos/Leon1734/shiyun/releases/{rid}/assets?name={name}'
 
 req = urllib.request.Request(url, data=data, method='POST', headers={
