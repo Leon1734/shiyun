@@ -36,6 +36,9 @@ repo_contents.json
 theme_config.json
 *.mp3
 
+# ── 发行包 ──
+release/
+
 # ── IDE ──
 .idea/
 .vscode/
