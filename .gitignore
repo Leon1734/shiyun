@@ -39,6 +39,9 @@ theme_config.json
 # ── 发行包 ──
 release/
 
+# ── 发布临时文件 ──
+.release_id
+
 # ── IDE ──
 .idea/
 .vscode/

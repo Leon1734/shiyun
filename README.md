@@ -46,7 +46,7 @@
 
 ### 方式一：下载打包版（推荐，免 Python）
 
-1. 从 [Releases](../../releases) 下载最新 `诗韵-v7.0-win64.zip`
+1. 从 [Releases](https://github.com/Leon1734/shiyun/releases) 下载最新 `诗韵-v7.0-win64.zip`
 2. 解压到任意目录（已内置数据库）
 3. 双击 `诗韵.exe` 即可运行
 
@@ -56,7 +56,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone <your-repo-url> && cd chinese-poetry
+git clone https://github.com/Leon1734/shiyun.git && cd shiyun
 
 # 2. 安装依赖
 pip install -r requirements.txt
@@ -73,7 +73,7 @@ python poetry_desktop.py
 ## 🗂 数据构建
 
 > 完整数据（1.4GB 源 JSON + 267MB SQLite）未包含在仓库中。
-> 快速体验请直接从 [Releases](../../releases) 下载打包版；自行构建请按以下步骤。
+> 快速体验请直接从 [Releases](https://github.com/Leon1734/shiyun/releases) 下载打包版；自行构建请按以下步骤。
 
 ### 1. 获取源数据
 
